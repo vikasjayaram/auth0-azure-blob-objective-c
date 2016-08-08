@@ -16,7 +16,7 @@ Once you have that, just clone the project and run the following:
 1. `pod install`
 2. `open basic-sample.xcworkspace`
 
-Configure the `AZCClient.framework` that is required for this example. Follow the instructions [here](https://azure.microsoft.com/en-us/documentation/articles/storage-ios-how-to-use-blob-storage/) to add the framework to your project.
+Configure the `AZSClient.framework` that is required for this example. Follow the instructions [here](https://azure.microsoft.com/en-us/documentation/articles/storage-ios-how-to-use-blob-storage/) to add the framework to your project.
 
 # Auth0 Dashboard Configuration
 * Login to your [Auth0 Dashboard](https://auth0.com)
