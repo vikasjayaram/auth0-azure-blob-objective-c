@@ -9,5 +9,5 @@
 #import "Constansts.h"
 
 @implementation Constansts
-NSString * const AFAzureStorageBaseURLString = @"https://vikasramasethu.blob.core.windows.net";
+NSString * const AFAzureStorageBaseURLString = @"https://{YOUR ACCOUNT NAME}.blob.core.windows.net";
 @end
