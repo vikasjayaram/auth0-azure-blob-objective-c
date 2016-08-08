@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F377D6D1ADF1EAD00A2657B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F377D6B1ADF1EAD00A2657B /* ProfileViewController.m */; };
+		7322651730289C342D2546E9 /* Pods_basic_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793C07CB45A0C12BC8423E97 /* Pods_basic_sample.framework */; };
+		9A18CB0B19DB18FC00DF8091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A18CB0A19DB18FC00DF8091 /* main.m */; };
+		9A18CB0E19DB18FC00DF8091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A18CB0D19DB18FC00DF8091 /* AppDelegate.m */; };
+		9A18CB1119DB18FC00DF8091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A18CB1019DB18FC00DF8091 /* ViewController.m */; };
+		9A18CB1419DB18FC00DF8091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A18CB1219DB18FC00DF8091 /* Main.storyboard */; };
+		9A18CB1619DB18FC00DF8091 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A18CB1519DB18FC00DF8091 /* Images.xcassets */; };
+		9A18CB1919DB18FC00DF8091 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A18CB1719DB18FC00DF8091 /* LaunchScreen.xib */; };
+		9A18CB3219DB40B700DF8091 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A18CB3119DB40B700DF8091 /* Application.m */; };
+		EB1870F41CF52225006F565F /* AFAuth0NetworkApi.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1870F31CF52225006F565F /* AFAuth0NetworkApi.m */; };
+		EB2176571D54C7C4008BD4ED /* AzureBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2176561D54C7C4008BD4ED /* AzureBlob.m */; };
+		EB21765B1D54D10B008BD4ED /* AzureStorageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21765A1D54D10B008BD4ED /* AzureStorageTableViewCell.m */; };
+		EB21765E1D54E3B3008BD4ED /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21765D1D54E3B3008BD4ED /* ImageViewController.m */; };
+		EB2176601D55886A008BD4ED /* AZSClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB21765F1D55886A008BD4ED /* AZSClient.framework */; };
+		EB2176621D558B36008BD4ED /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2176611D558B36008BD4ED /* libxml2.2.tbd */; };
+		EB2176651D582140008BD4ED /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2176641D582140008BD4ED /* NSString+Random.m */; };
+		EB2176681D5826AF008BD4ED /* Constansts.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2176671D5826AF008BD4ED /* Constansts.m */; };
+		EB8FA0C61D54250E009D5431 /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8FA0C51D54250E009D5431 /* NSString+Hashes.m */; };
+		EB8FA0C91D54278E009D5431 /* AFAzureBlobApi.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8FA0C81D54278E009D5431 /* AFAzureBlobApi.m */; };
+		EB8FA0CC1D542975009D5431 /* AzureUrlHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8FA0CB1D542975009D5431 /* AzureUrlHelpers.m */; };
+		EB8FA0CF1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8FA0CE1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F377D6B1ADF1EAD00A2657B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5F377D6C1ADF1EAD00A2657B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		656F4AAEDB0649669FAE6DB7 /* Pods-basic-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-basic-sample/Pods-basic-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		793C07CB45A0C12BC8423E97 /* Pods_basic_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basic_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A18CB0519DB18FC00DF8091 /* basic-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A18CB0919DB18FC00DF8091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A18CB0A19DB18FC00DF8091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A18CB0C19DB18FC00DF8091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A18CB0D19DB18FC00DF8091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A18CB0F19DB18FC00DF8091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A18CB1019DB18FC00DF8091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A18CB1319DB18FC00DF8091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A18CB1519DB18FC00DF8091 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A18CB1819DB18FC00DF8091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A18CB3119DB40B700DF8091 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		9A18CB3319DB40C700DF8091 /* Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		B40225A22A346F128EC27A8A /* Pods-basic-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-basic-sample/Pods-basic-sample.release.xcconfig"; sourceTree = "<group>"; };
+		EB1870F21CF52225006F565F /* AFAuth0NetworkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFAuth0NetworkApi.h; path = "Network Extensions/AFAuth0NetworkApi.h"; sourceTree = "<group>"; };
+		EB1870F31CF52225006F565F /* AFAuth0NetworkApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFAuth0NetworkApi.m; path = "Network Extensions/AFAuth0NetworkApi.m"; sourceTree = "<group>"; };
+		EB2176551D54C7C4008BD4ED /* AzureBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AzureBlob.h; path = Models/AzureBlob.h; sourceTree = "<group>"; };
+		EB2176561D54C7C4008BD4ED /* AzureBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AzureBlob.m; path = Models/AzureBlob.m; sourceTree = "<group>"; };
+		EB2176591D54D10B008BD4ED /* AzureStorageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AzureStorageTableViewCell.h; path = Views/AzureStorageTableViewCell.h; sourceTree = "<group>"; };
+		EB21765A1D54D10B008BD4ED /* AzureStorageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AzureStorageTableViewCell.m; path = Views/AzureStorageTableViewCell.m; sourceTree = "<group>"; };
+		EB21765C1D54E3B3008BD4ED /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		EB21765D1D54E3B3008BD4ED /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		EB21765F1D55886A008BD4ED /* AZSClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AZSClient.framework; path = Frameworks/AZSClient.framework; sourceTree = "<group>"; };
+		EB2176611D558B36008BD4ED /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		EB2176631D582140008BD4ED /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Random.h"; path = "Helpers/NSString+Random.h"; sourceTree = "<group>"; };
+		EB2176641D582140008BD4ED /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Random.m"; path = "Helpers/NSString+Random.m"; sourceTree = "<group>"; };
+		EB2176661D5826AF008BD4ED /* Constansts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constansts.h; path = Helpers/Constansts.h; sourceTree = "<group>"; };
+		EB2176671D5826AF008BD4ED /* Constansts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constansts.m; path = Helpers/Constansts.m; sourceTree = "<group>"; };
+		EB8FA0C41D54250E009D5431 /* NSString+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Hashes.h"; path = "Helpers/NSString+Hashes.h"; sourceTree = "<group>"; };
+		EB8FA0C51D54250E009D5431 /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hashes.m"; path = "Helpers/NSString+Hashes.m"; sourceTree = "<group>"; };
+		EB8FA0C71D54278E009D5431 /* AFAzureBlobApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFAzureBlobApi.h; path = "Network Extensions/AFAzureBlobApi.h"; sourceTree = "<group>"; };
+		EB8FA0C81D54278E009D5431 /* AFAzureBlobApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFAzureBlobApi.m; path = "Network Extensions/AFAzureBlobApi.m"; sourceTree = "<group>"; };
+		EB8FA0CA1D542975009D5431 /* AzureUrlHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AzureUrlHelpers.h; path = Helpers/AzureUrlHelpers.h; sourceTree = "<group>"; };
+		EB8FA0CB1D542975009D5431 /* AzureUrlHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AzureUrlHelpers.m; path = Helpers/AzureUrlHelpers.m; sourceTree = "<group>"; };
+		EB8FA0CD1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzureStorageViewControllerTableViewController.h; sourceTree = "<group>"; };
+		EB8FA0CE1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AzureStorageViewControllerTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A18CB0219DB18FC00DF8091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2176621D558B36008BD4ED /* libxml2.2.tbd in Frameworks */,
+				EB2176601D55886A008BD4ED /* AZSClient.framework in Frameworks */,
+				7322651730289C342D2546E9 /* Pods_basic_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E05492103CCA6FBED431FCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				656F4AAEDB0649669FAE6DB7 /* Pods-basic-sample.debug.xcconfig */,
+				B40225A22A346F128EC27A8A /* Pods-basic-sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A18CAFC19DB18FC00DF8091 = {
+			isa = PBXGroup;
+			children = (
+				9A18CB0719DB18FC00DF8091 /* basic-sample */,
+				9A18CB0619DB18FC00DF8091 /* Products */,
+				0E05492103CCA6FBED431FCD /* Pods */,
+				B2631CFE12A3BAE2970BBE3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A18CB0619DB18FC00DF8091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A18CB0519DB18FC00DF8091 /* basic-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A18CB0719DB18FC00DF8091 /* basic-sample */ = {
+			isa = PBXGroup;
+			children = (
+				EB2176581D54D0DC008BD4ED /* Views */,
+				EB2176541D54C77F008BD4ED /* Models */,
+				EB8FA0C31D5424DF009D5431 /* Helpers */,
+				EB1870F11CF521F2006F565F /* Network Extensions */,
+				5F377D6B1ADF1EAD00A2657B /* ProfileViewController.m */,
+				5F377D6C1ADF1EAD00A2657B /* ProfileViewController.h */,
+				9A18CB0C19DB18FC00DF8091 /* AppDelegate.h */,
+				9A18CB0D19DB18FC00DF8091 /* AppDelegate.m */,
+				9A18CB0F19DB18FC00DF8091 /* ViewController.h */,
+				9A18CB1019DB18FC00DF8091 /* ViewController.m */,
+				9A18CB1219DB18FC00DF8091 /* Main.storyboard */,
+				9A18CB1519DB18FC00DF8091 /* Images.xcassets */,
+				9A18CB1719DB18FC00DF8091 /* LaunchScreen.xib */,
+				9A18CB0819DB18FC00DF8091 /* Supporting Files */,
+				9A18CB3119DB40B700DF8091 /* Application.m */,
+				9A18CB3319DB40C700DF8091 /* Application.h */,
+				EB8FA0CD1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.h */,
+				EB8FA0CE1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.m */,
+				EB21765C1D54E3B3008BD4ED /* ImageViewController.h */,
+				EB21765D1D54E3B3008BD4ED /* ImageViewController.m */,
+			);
+			path = "basic-sample";
+			sourceTree = "<group>";
+		};
+		9A18CB0819DB18FC00DF8091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A18CB0919DB18FC00DF8091 /* Info.plist */,
+				9A18CB0A19DB18FC00DF8091 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2631CFE12A3BAE2970BBE3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2176611D558B36008BD4ED /* libxml2.2.tbd */,
+				EB21765F1D55886A008BD4ED /* AZSClient.framework */,
+				793C07CB45A0C12BC8423E97 /* Pods_basic_sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB1870F11CF521F2006F565F /* Network Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB1870F21CF52225006F565F /* AFAuth0NetworkApi.h */,
+				EB1870F31CF52225006F565F /* AFAuth0NetworkApi.m */,
+				EB8FA0C71D54278E009D5431 /* AFAzureBlobApi.h */,
+				EB8FA0C81D54278E009D5431 /* AFAzureBlobApi.m */,
+			);
+			name = "Network Extensions";
+			sourceTree = "<group>";
+		};
+		EB2176541D54C77F008BD4ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB2176551D54C7C4008BD4ED /* AzureBlob.h */,
+				EB2176561D54C7C4008BD4ED /* AzureBlob.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB2176581D54D0DC008BD4ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB2176591D54D10B008BD4ED /* AzureStorageTableViewCell.h */,
+				EB21765A1D54D10B008BD4ED /* AzureStorageTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EB8FA0C31D5424DF009D5431 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB8FA0C41D54250E009D5431 /* NSString+Hashes.h */,
+				EB8FA0C51D54250E009D5431 /* NSString+Hashes.m */,
+				EB8FA0CA1D542975009D5431 /* AzureUrlHelpers.h */,
+				EB8FA0CB1D542975009D5431 /* AzureUrlHelpers.m */,
+				EB2176631D582140008BD4ED /* NSString+Random.h */,
+				EB2176641D582140008BD4ED /* NSString+Random.m */,
+				EB2176661D5826AF008BD4ED /* Constansts.h */,
+				EB2176671D5826AF008BD4ED /* Constansts.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A18CB0419DB18FC00DF8091 /* basic-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A18CB2819DB18FC00DF8091 /* Build configuration list for PBXNativeTarget "basic-sample" */;
+			buildPhases = (
+				D742D2998CFF088C9CC93EC9 /* [CP] Check Pods Manifest.lock */,
+				9A18CB0119DB18FC00DF8091 /* Sources */,
+				9A18CB0219DB18FC00DF8091 /* Frameworks */,
+				9A18CB0319DB18FC00DF8091 /* Resources */,
+				5FF681461BEBED7F00161E5B /* Auth0 */,
+				4203CF1762992848A134C985 /* [CP] Embed Pods Frameworks */,
+				744E0AA3E206A2D453DFF0C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "basic-sample";
+			productName = "basic-sample";
+			productReference = 9A18CB0519DB18FC00DF8091 /* basic-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A18CAFD19DB18FC00DF8091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Auth0;
+				TargetAttributes = {
+					9A18CB0419DB18FC00DF8091 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A18CB0019DB18FC00DF8091 /* Build configuration list for PBXProject "basic-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A18CAFC19DB18FC00DF8091;
+			productRefGroup = 9A18CB0619DB18FC00DF8091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A18CB0419DB18FC00DF8091 /* basic-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A18CB0319DB18FC00DF8091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A18CB1419DB18FC00DF8091 /* Main.storyboard in Resources */,
+				9A18CB1919DB18FC00DF8091 /* LaunchScreen.xib in Resources */,
+				9A18CB1619DB18FC00DF8091 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4203CF1762992848A134C985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basic-sample/Pods-basic-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF681461BEBED7F00161E5B /* Auth0 */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Auth0;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "AUTH0_PLIST=\"${SRCROOT}/basic-sample/Auth0.plist\"\nif [ -f $AUTH0_PLIST ];\nthen\ncp \"$AUTH0_PLIST\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\nfi";
+		};
+		744E0AA3E206A2D453DFF0C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basic-sample/Pods-basic-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D742D2998CFF088C9CC93EC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A18CB0119DB18FC00DF8091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2176651D582140008BD4ED /* NSString+Random.m in Sources */,
+				9A18CB1119DB18FC00DF8091 /* ViewController.m in Sources */,
+				EB8FA0C61D54250E009D5431 /* NSString+Hashes.m in Sources */,
+				EB8FA0C91D54278E009D5431 /* AFAzureBlobApi.m in Sources */,
+				EB1870F41CF52225006F565F /* AFAuth0NetworkApi.m in Sources */,
+				EB2176681D5826AF008BD4ED /* Constansts.m in Sources */,
+				9A18CB0E19DB18FC00DF8091 /* AppDelegate.m in Sources */,
+				EB21765E1D54E3B3008BD4ED /* ImageViewController.m in Sources */,
+				EB21765B1D54D10B008BD4ED /* AzureStorageTableViewCell.m in Sources */,
+				9A18CB3219DB40B700DF8091 /* Application.m in Sources */,
+				EB8FA0CC1D542975009D5431 /* AzureUrlHelpers.m in Sources */,
+				9A18CB0B19DB18FC00DF8091 /* main.m in Sources */,
+				EB8FA0CF1D54A18E009D5431 /* AzureStorageViewControllerTableViewController.m in Sources */,
+				EB2176571D54C7C4008BD4ED /* AzureBlob.m in Sources */,
+				5F377D6D1ADF1EAD00A2657B /* ProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A18CB1219DB18FC00DF8091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A18CB1319DB18FC00DF8091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A18CB1719DB18FC00DF8091 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A18CB1819DB18FC00DF8091 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A18CB2619DB18FC00DF8091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A18CB2719DB18FC00DF8091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A18CB2919DB18FC00DF8091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656F4AAEDB0649669FAE6DB7 /* Pods-basic-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = "basic-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auth0.vikas.basic-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A18CB2A19DB18FC00DF8091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40225A22A346F128EC27A8A /* Pods-basic-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "basic-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auth0.vikas.basic-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A18CB0019DB18FC00DF8091 /* Build configuration list for PBXProject "basic-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A18CB2619DB18FC00DF8091 /* Debug */,
+				9A18CB2719DB18FC00DF8091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A18CB2819DB18FC00DF8091 /* Build configuration list for PBXNativeTarget "basic-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A18CB2919DB18FC00DF8091 /* Debug */,
+				9A18CB2A19DB18FC00DF8091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A18CAFD19DB18FC00DF8091 /* Project object */;
+}

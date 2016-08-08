@@ -1,0 +1,86 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - FBSDKCoreKit (4.14.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.14.0):
+    - FBSDKCoreKit
+  - JWTDecode (0.2.2)
+  - Lock (1.26.1):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/Core (= 1.26.1)
+    - Lock/UI (= 1.26.1)
+    - Lock/WebView (= 1.26.1)
+  - Lock-Facebook (2.2.1):
+    - CocoaLumberjack (~> 2.0)
+    - FBSDKCoreKit (~> 4.6)
+    - FBSDKLoginKit (~> 4.6)
+    - Lock/Core (~> 1.11)
+  - Lock/Core (1.26.1):
+    - AFNetworking (~> 3.0)
+    - CocoaLumberjack (~> 2.0)
+  - Lock/CoreUI (1.26.1):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/Core
+    - Masonry (~> 0.6)
+  - Lock/UI (1.26.1):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/CoreUI
+  - Lock/WebView (1.26.1):
+    - CocoaLumberjack (~> 2.0)
+    - Lock/CoreUI
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - SimpleKeychain (0.7.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - JWTDecode (~> 0.2.0)
+  - Lock (~> 1.23)
+  - Lock-Facebook (~> 2.2)
+  - MBProgressHUD (~> 0.9)
+  - SimpleKeychain (~> 0.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
+  FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
+  JWTDecode: c193d229af74dd72121515c976f930ccbed96a2a
+  Lock: d981a23c9ea7d2a77d7637ea83826b751df4e2f2
+  Lock-Facebook: 09f2397cbc9ae2e1fc654f7e66248da30343e349
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
+
+PODFILE CHECKSUM: 50a751c19bf8431b16215215945f376eca9256ac
+
+COCOAPODS: 1.0.1
